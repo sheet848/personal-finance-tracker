@@ -1,0 +1,29 @@
+.overview-status {
+    display: grid;
+    gap: 20px;
+}
+
+.overview-card {
+    padding: 1rem 1.5rem;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+}
+
+.overview-card h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.overview-card p.overview-value {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .overview-status {
+        grid-template-columns: auto auto auto;
+    }
+}
